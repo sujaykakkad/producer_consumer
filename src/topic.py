@@ -1,7 +1,7 @@
 from threading import Semaphore
 from queue import Queue
 
-CAPACITY_PER_TOPIC = 2
+CAPACITY_PER_TOPIC = 10
 class Topic:
     def __init__(self, name):
         self.name = name
